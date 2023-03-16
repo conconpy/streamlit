@@ -18,4 +18,4 @@ fruit_selected=streamlit.multiselect('Pick some eFruit:', list(fruit_list.index)
 fruits_to_show=my_fruit_list.loc[fruits_selected]
 #display
 
-streamlit.dataframe(fruit_to_show)
+streamlit.dataframe(fruits_to_show)
